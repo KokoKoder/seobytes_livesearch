@@ -1,0 +1,1 @@
+<?php /** * This file is an independent controller, used to query the WordPress database * and provide search results for Ajax requests. * * @return string   Either return nothing (i.e. no results) or return some formatted results. */ if (!defined('WP_PLUGIN_URL')) {   require_once( realpath('../../../').'/wp-config.php' ); } print_r( get_declared_classes() ); /* EOF */ 
